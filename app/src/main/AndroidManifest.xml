@@ -46,6 +46,19 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:theme="@android:style/Theme.Translucent" />
 
+        <activity android:name=".web.WebviewActivity"
+            android:configChanges="orientation|screenSize"/>
+
+        <activity android:name=".comments.CommentsActivity"
+            android:configChanges="orientation|screenSize"/>
+
+        <activity android:name=".HolderActivity"
+            android:configChanges="orientation|screenSize"/>
+
+        <activity android:name=".fav.FavRed"
+            android:noHistory="true"
+            android:screenOrientation="portrait"/>
+
 
 
 

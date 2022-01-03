@@ -16,12 +16,12 @@
     ]]></string>
     
     <!-- Enter your Google Play billing details to enable In-App purchases -->
-    <string name="google_play_license"></string>
-	<string name="product_id">add_off_product</string>
+    <string name="google_play_license">123</string>
+	<string name="product_id">android.test.purchased</string>
 	
     <!-- Enter a ADMOB ID if you would like to display ads-->
-    <string name="admob_banner_id"></string>
-    <string name="admob_interstitial_id"></string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
     
     <!-- Strings for optional translation below this line -->
     

@@ -1,7 +1,7 @@
 [
 
   {
-    "title":"Рубрика Главная",
+    "title":"Главная",
     "drawable":"",
     "submenu":"",
     "iap":false,
@@ -10,9 +10,9 @@
         "title":"",
         "provider":"wordpress",
         "arguments":[
-          "http://wp.olimpiev.site/",
+          "http://51.250.20.130/",
           "",
-          "http://wp.olimpiev-site.disqus.com/;wp.olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
+          "http://gameandroid-pw.disqus.com/;gameandroid-pw;%d http://gameandroid.pw/?p=%d"
         ]
       }
     ]
@@ -26,9 +26,9 @@
       "title":"",
       "provider":"wordpress",
       "arguments":[
-        "http://wp.olimpiev.site/",
+        "http://51.250.20.130/",
         "rub1",
-        "http://wp.olimpiev-site.disqus.com/;wp.olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
+        "http://gameandroid-pw.disqus.com/;gameandroid-pw;%d http://gameandroid.pw/?p=%d"
       ]
     }
   ]

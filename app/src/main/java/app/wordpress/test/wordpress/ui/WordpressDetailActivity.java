@@ -24,6 +24,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
 
@@ -32,16 +33,22 @@ import org.jsoup.nodes.Document;
 
 import java.util.List;
 
+import app.wordpress.test.Config;
 import app.wordpress.test.R;
+import app.wordpress.test.comments.CommentsActivity;
+import app.wordpress.test.fav.FavDbAdapter;
 import app.wordpress.test.util.DetailActivity;
 import app.wordpress.test.util.Helper;
 import app.wordpress.test.util.MediaActivity;
 import app.wordpress.test.util.WebHelper;
 import app.wordpress.test.util.layout.ExpandedListView;
+import app.wordpress.test.web.WebviewActivity;
 import app.wordpress.test.wordpress.PostItem;
 import app.wordpress.test.wordpress.api.JsonApiPostLoader;
 import app.wordpress.test.wordpress.api.WordpressGetTask;
 import app.wordpress.test.wordpress.api.WordpressGetTaskInfo;
+import app.wordpress.test.wordpress.api.providers.JetPackProvider;
+import app.wordpress.test.wordpress.api.providers.RestApiProvider;
 
 
 /**
@@ -56,7 +63,7 @@ public class WordpressDetailActivity extends DetailActivity implements JsonApiPo
     public static final boolean PRELOAD_POSTS = true;
 
     //Utilties
-    //private FavDbAdapter mDbHelper;
+    private FavDbAdapter mDbHelper;
     private WebView htmlTextView;
     private TextView mTitle;
 
@@ -167,10 +174,10 @@ public class WordpressDetailActivity extends DetailActivity implements JsonApiPo
                     } else if (url != null
                             && (url.startsWith("http://") || url
                             .startsWith("https://"))) {
-                        /*Intent mIntent = new Intent(WordpressDetailActivity.this, WebviewActivity.class);
+                        Intent mIntent = new Intent(WordpressDetailActivity.this, WebviewActivity.class);
                         mIntent.putExtra(WebviewActivity.OPEN_EXTERNAL, Config.OPEN_INLINE_EXTERNAL);
                         mIntent.putExtra(WebviewActivity.URL, url);
-                        startActivity(mIntent);*/
+                        startActivity(mIntent);
                         return true;
                     } else {
                         Uri uri = Uri.parse(url);
@@ -202,7 +209,7 @@ public class WordpressDetailActivity extends DetailActivity implements JsonApiPo
             Button btnFav = (Button) findViewById(R.id.favorite);
 
             // Listening to button event
-           /* btnFav.setOnClickListener(new View.OnClickListener() {
+            btnFav.setOnClickListener(new View.OnClickListener() {
 
                 public void onClick(View arg0) {
                     mDbHelper = new FavDbAdapter(WordpressDetailActivity.this);
@@ -227,7 +234,7 @@ public class WordpressDetailActivity extends DetailActivity implements JsonApiPo
                         toast.show();
                     }
                 }
-            });*/
+            });
 
             //If we have tags and a baseurl, load the related posts
             if (post.getTag() != null && getIntent().getStringExtra(EXTRA_API_BASE) != null) {
@@ -288,10 +295,10 @@ public class WordpressDetailActivity extends DetailActivity implements JsonApiPo
                 shareContent();
                 return true;
             case R.id.menu_view:
-               /* Intent mIntent = new Intent(WordpressDetailActivity.this, WebviewActivity.class);
+                Intent mIntent = new Intent(WordpressDetailActivity.this, WebviewActivity.class);
                 mIntent.putExtra(WebviewActivity.OPEN_EXTERNAL, Config.OPEN_EXPLICIT_EXTERNAL);
                 mIntent.putExtra(WebviewActivity.URL, post.getUrl());
-                startActivity(mIntent);*/
+                startActivity(mIntent);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -326,7 +333,7 @@ public class WordpressDetailActivity extends DetailActivity implements JsonApiPo
                 else
                     btnComment.setText(Helper.formatValue(result.getCommentCount()) + " " + getResources().getString(R.string.comments));
 
-              /*  btnComment.setOnClickListener(new View.OnClickListener() {
+                btnComment.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View arg0) {
 
                         Intent commentIntent = new Intent(WordpressDetailActivity.this, CommentsActivity.class);
@@ -350,7 +357,7 @@ public class WordpressDetailActivity extends DetailActivity implements JsonApiPo
 
                         startActivity(commentIntent);
                     }
-                });*/
+                });
             }
         } else {
             findViewById(R.id.progressBar).setVisibility(View.GONE);

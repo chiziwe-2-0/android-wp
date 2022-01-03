@@ -18,6 +18,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import app.wordpress.test.fav.ui.FavFragment;
 import app.wordpress.test.inherit.BackPressFragment;
 import app.wordpress.test.inherit.PermissionsFragment;
 import app.wordpress.test.util.Helper;
@@ -97,10 +98,10 @@ public class HolderActivity extends AppCompatActivity{
                 finish();
                 return true;
             case R.id.settings:
-               // openFragment(SettingsFragment.class, new String[0]);
+               openFragment(SettingsFragment.class, new String[0]);
                 return true;
             case R.id.favorites:
-                //openFragment(FavFragment.class, new String[0]);
+                openFragment(FavFragment.class, new String[0]);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
