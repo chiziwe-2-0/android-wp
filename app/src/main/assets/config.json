@@ -1,0 +1,37 @@
+[
+
+  {
+    "title":"Рубрика Главная",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"wordpress",
+        "arguments":[
+          "http://51.250.20.130/",
+          "",
+          "http://gameandroid-pw.disqus.com/;gameandroid-pw;%d http://gameandroid.pw/?p=%d"
+        ]
+      }
+    ]
+  },{
+  "title":"Рубрика 1",
+  "drawable":"",
+  "submenu":"",
+  "iap":false,
+  "tabs":[
+    {
+      "title":"",
+      "provider":"wordpress",
+      "arguments":[
+        "http://51.250.20.130/",
+        "rub1",
+        "http://gameandroid-pw.disqus.com/;gameandroid-pw;%d http://gameandroid.pw/?p=%d"
+      ]
+    }
+  ]
+}
+
+]
