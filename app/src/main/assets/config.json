@@ -10,9 +10,9 @@
         "title":"",
         "provider":"wordpress",
         "arguments":[
-          "http://51.250.20.130/",
+          "http://wp.olimpiev.site",
           "",
-          "http://gameandroid-pw.disqus.com/;gameandroid-pw;%d http://gameandroid.pw/?p=%d"
+          "http://wp.olimpiev-site.disqus.com/;wp.olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
         ]
       }
     ]
@@ -26,9 +26,9 @@
       "title":"",
       "provider":"wordpress",
       "arguments":[
-        "http://51.250.20.130/",
+        "http://wp.olimpiev.site",
         "rub1",
-        "http://gameandroid-pw.disqus.com/;gameandroid-pw;%d http://gameandroid.pw/?p=%d"
+        "http://wp.olimpiev-site.disqus.com/;wp.olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
       ]
     }
   ]
