@@ -17,7 +17,7 @@
       }
     ]
   },{
-  "title":"Рубрика 1",
+  "title":"PHP",
   "drawable":"",
   "submenu":"",
   "iap":false,
@@ -27,7 +27,97 @@
       "provider":"wordpress",
       "arguments":[
         "http://wp.olimpiev.site",
-        "rub1"
+        "php"
+      ]
+    }
+  ]
+},{
+  "title":"HTML+CSS",
+  "drawable":"",
+  "submenu":"",
+  "iap":false,
+  "tabs":[
+    {
+      "title":"",
+      "provider":"wordpress",
+      "arguments":[
+        "http://wp.olimpiev.site",
+        "html-css"
+      ]
+    }
+  ]
+},{
+  "title":"Python",
+  "drawable":"",
+  "submenu":"",
+  "iap":false,
+  "tabs":[
+    {
+      "title":"",
+      "provider":"wordpress",
+      "arguments":[
+        "http://wp.olimpiev.site",
+        "python"
+      ]
+    }
+  ]
+},{
+  "title":"Node.js",
+  "drawable":"",
+  "submenu":"",
+  "iap":false,
+  "tabs":[
+    {
+      "title":"",
+      "provider":"wordpress",
+      "arguments":[
+        "http://wp.olimpiev.site",
+        "node-js"
+      ]
+    }
+  ]
+},{
+  "title":"SCORM",
+  "drawable":"",
+  "submenu":"",
+  "iap":false,
+  "tabs":[
+    {
+      "title":"",
+      "provider":"wordpress",
+      "arguments":[
+        "http://wp.olimpiev.site",
+        "scorm"
+      ]
+    }
+  ]
+},{
+  "title":"Java+Android",
+  "drawable":"",
+  "submenu":"",
+  "iap":false,
+  "tabs":[
+    {
+      "title":"",
+      "provider":"wordpress",
+      "arguments":[
+        "http://wp.olimpiev.site",
+        "java-android"
+      ]
+    }
+  ]
+},{
+  "title":"Tor",
+  "drawable":"",
+  "submenu":"",
+  "iap":true,
+  "tabs":[
+    {
+      "title":"",
+      "provider":"wordpress",
+      "arguments":[
+        "http://wp.olimpiev.site",
+        "tor"
       ]
     }
   ]

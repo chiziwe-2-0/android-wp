@@ -9,9 +9,9 @@
 
     <!-- About text, you can use basic html, stay between [ and ] -->
     <string name="about_text"><![CDATA[   
-    <b>v1.0</b>
-    <br><br>Сделано для ИТМО<br><br>
-    <br><br>by Никита Олимпиев<br><br>
+    <b><br>v1.0</b><br>
+    <br>Сделано для ИТМО<br>
+    <br>by Никита Олимпиев
     ]]></string>
     
     <!-- Enter your Google Play billing details to enable In-App purchases -->
