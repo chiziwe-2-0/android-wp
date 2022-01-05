@@ -3,7 +3,7 @@
   {
     "title":"Главная",
     "drawable":"",
-    "submenu":"",
+    "submenu":"Главная",
     "iap":false,
     "tabs":[
       {
@@ -11,8 +11,8 @@
         "provider":"wordpress",
         "arguments":[
           "http://wp.olimpiev.site",
-          "",
-          "http://wp.olimpiev-site.disqus.com/;wp.olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
+          ""
+          //"http://wp-olimpiev-site.disqus.com/;wp-olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
         ]
       }
     ]
@@ -27,8 +27,7 @@
       "provider":"wordpress",
       "arguments":[
         "http://wp.olimpiev.site",
-        "rub1",
-        "http://wp.olimpiev-site.disqus.com/;wp.olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
+        "rub1"
       ]
     }
   ]
