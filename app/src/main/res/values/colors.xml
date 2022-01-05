@@ -2,9 +2,9 @@
 <resources>
 
     <!-- Android -->
-    <color name="myPrimaryColor">#4688F2</color>
-    <color name="myPrimaryDarkColor">#366AD3</color>
-    <color name="myAccentColor">#FF9800</color>
+    <color name="myPrimaryColor">#537C21</color>
+    <color name="myPrimaryDarkColor">#416317</color>
+    <color name="myAccentColor">#332E6E</color>
     <color name="myDrawerBackground">#F2F2F2</color>
     <color name="myWindowBackground">#DEDEDE</color>
     <color name="myTextPrimaryColor">#000000</color>

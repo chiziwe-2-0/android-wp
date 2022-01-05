@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
-    
-    <string name="app_name">Игры Андроид</string>
+    <string name="app_name">WordPress на Android</string>
     
     <!-- API keys -->
     <string name="google_server_key"></string>
@@ -11,8 +9,9 @@
 
     <!-- About text, you can use basic html, stay between [ and ] -->
     <string name="about_text"><![CDATA[   
-    <b>Версия 1.0</b>
-    <br><br>Спасибо, что скачали наше приложение.<br><br>
+    <b>v1.0</b>
+    <br><br>Сделано для ИТМО<br><br>
+    <br><br>by Никита Олимпиев<br><br>
     ]]></string>
     
     <!-- Enter your Google Play billing details to enable In-App purchases -->
@@ -26,7 +25,7 @@
     <!-- Strings for optional translation below this line -->
     
       <!--  webview  -->
-    <string name="webview_title">Игры Андроид</string>
+    <string name="webview_title">WordPress на Android</string>
 
     <string name="web_share_begin">"Смотри, что я видел в приложении "" </string>
 
@@ -108,7 +107,7 @@
     <string name="comments">Комментарии</string>
     <string name="share">Поделиться</string>
     <string name="refresh">Обновить</string>
-    <string name="already_loading">Мы уже загрузили новое содержимое!</string>
+    <string name="already_loading">Содержимое уже загружено</string>
     <string name="opening_video">Открытие видео</string>
     <string name="opening_audio">Открытие аудио</string>
 

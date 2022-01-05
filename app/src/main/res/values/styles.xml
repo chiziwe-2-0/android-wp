@@ -3,13 +3,13 @@
    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/myPrimaryColor</item>
-        <item name="colorPrimaryDark">@color/myPrimaryDarkColor</item>
+        <item name="colorPrimaryDark">@color/myAccentColor</item>
         <item name="colorAccent">@color/myAccentColor</item>
         <item name="android:textColorPrimary">@color/myTextPrimaryColor</item>
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
         <item name="windowActionModeOverlay">true</item>
 		<item name="android:textColor">@color/black</item>
-        <item name="android:windowBackground">@color/myWindowBackground</item> 
+        <item name="android:windowBackground">@color/dark_gray</item>
     </style>
     
     <style name="AppThemeBar" parent="AppTheme">
