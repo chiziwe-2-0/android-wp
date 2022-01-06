@@ -11,7 +11,7 @@
         "provider":"wordpress",
         "arguments":[
           "http://wp.olimpiev.site",
-          "Bez-rubriki"
+          ""
           //"http://wp-olimpiev-site.disqus.com/;wp-olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
         ]
       }
