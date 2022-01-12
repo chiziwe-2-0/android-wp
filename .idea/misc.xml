@@ -11,9 +11,11 @@
         <entry key="app/src/main/res/layout/drawer_top.xml" value="0.4046875" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.4046875" />
         <entry key="app/src/main/res/menu/favorite_menu.xml" value="0.4046875" />
+        <entry key="app/src/main/res/menu/menu_media.xml" value="0.4427083333333333" />
         <entry key="app/src/main/res/menu/refresh_menu.xml" value="0.4046875" />
         <entry key="app/src/main/res/menu/settings_menu.xml" value="0.4046875" />
         <entry key="app/src/main/res/menu/webview_menu.xml" value="0.4046875" />
+        <entry key="app/src/main/res/menu/wordpress_detail_menu.xml" value="0.4427083333333333" />
         <entry key="app/src/main/res/xml/activity_settings.xml" value="0.5" />
       </map>
     </option>

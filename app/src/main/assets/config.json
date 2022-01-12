@@ -11,8 +11,8 @@
         "provider":"wordpress",
         "arguments":[
           "http://wp.olimpiev.site",
-          ""
-          //"http://wp-olimpiev-site.disqus.com/;wp-olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
+          "",
+          "http://wp-olimpiev-site.disqus.com/;wp-olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
         ]
       }
     ]
@@ -27,7 +27,8 @@
       "provider":"wordpress",
       "arguments":[
         "http://wp.olimpiev.site",
-        "php"
+        "php",
+        "http://wp-olimpiev-site.disqus.com/;wp-olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
       ]
     }
   ]
@@ -42,7 +43,8 @@
       "provider":"wordpress",
       "arguments":[
         "http://wp.olimpiev.site",
-        "html-css"
+        "html-css",
+        "http://wp-olimpiev-site.disqus.com/;wp-olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
       ]
     }
   ]
@@ -57,7 +59,8 @@
       "provider":"wordpress",
       "arguments":[
         "http://wp.olimpiev.site",
-        "python"
+        "python",
+        "http://wp-olimpiev-site.disqus.com/;wp-olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
       ]
     }
   ]
@@ -72,7 +75,8 @@
       "provider":"wordpress",
       "arguments":[
         "http://wp.olimpiev.site",
-        "node-js"
+        "node-js",
+        "http://wp-olimpiev-site.disqus.com/;wp-olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
       ]
     }
   ]
@@ -87,7 +91,8 @@
       "provider":"wordpress",
       "arguments":[
         "http://wp.olimpiev.site",
-        "scorm"
+        "scorm",
+        "http://wp-olimpiev-site.disqus.com/;wp-olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
       ]
     }
   ]
@@ -102,7 +107,8 @@
       "provider":"wordpress",
       "arguments":[
         "http://wp.olimpiev.site",
-        "java-android"
+        "java-android",
+        "http://wp-olimpiev-site.disqus.com/;wp-olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
       ]
     }
   ]
@@ -117,7 +123,8 @@
       "provider":"wordpress",
       "arguments":[
         "http://wp.olimpiev.site",
-        "tor"
+        "tor",
+        "http://wp-olimpiev-site.disqus.com/;wp-olimpiev-site;%d http://wp.olimpiev.site/?p=%d"
       ]
     }
   ]
