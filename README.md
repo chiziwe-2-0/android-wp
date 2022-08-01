@@ -13,7 +13,7 @@
 
 **WordPress-сайт:** http://wp.olimpiev.site/
 
-![](https://keep.google.com/u/0/media/v2/1Cz-TFtww278QbSpW6cwfoWrCvs7Vi-_K88zqZxG2IWFLtJgY21nkU8IIAblkUQ/1CaVzUBOSWcg8HQy-kJx7oI1dg2Uhr9NLNIeBX77JTnah170MQonnvuYvtUf0Sw?accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp%2Caudio%2Faac&sz=1600)
+![alt text](https://keep.google.com/u/0/media/v2/1Cz-TFtww278QbSpW6cwfoWrCvs7Vi-_K88zqZxG2IWFLtJgY21nkU8IIAblkUQ/1CaVzUBOSWcg8HQy-kJx7oI1dg2Uhr9NLNIeBX77JTnah170MQonnvuYvtUf0Sw?accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp%2Caudio%2Faac&sz=1600)
 
 Рисунок 1. Главная страница WordPress-сайта
 
