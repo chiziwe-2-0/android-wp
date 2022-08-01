@@ -13,7 +13,7 @@
 
 **WordPress-сайт:** http://wp.olimpiev.site/
 
-![Image alt]([https://github.com/chiziwe-2-0/android-wp/main/pics_for_readme/unnamed-1.png](https://github.com/chiziwe-2-0/android-wp/blob/main/pics_for_readme/unnamed-6.png?raw=true))
+![Image alt](https://github.com/chiziwe-2-0/android-wp/blob/main/pics_for_readme/unnamed-6.png?raw=true)
 
 Рисунок 1. Главная страница WordPress-сайта
 
